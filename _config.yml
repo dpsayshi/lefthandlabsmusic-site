@@ -1,0 +1,4 @@
+# GitHub Pages (Jekyll) settings: keep the README and preview screenshots off the live site.
+exclude:
+  - README.md
+  - _preview
