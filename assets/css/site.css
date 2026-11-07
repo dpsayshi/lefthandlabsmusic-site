@@ -53,6 +53,7 @@ nav.site a[aria-current]{color:var(--ember)}
  padding:14px 22px;border-radius:6px;border:1px solid #ff6a1f55;box-shadow:0 6px 24px rgba(216,38,29,.35),inset 0 1px 0 rgba(255,255,255,.2);text-align:center;min-height:48px}
 .btn:hover{filter:brightness(1.1)}
 .btn.ghost{background:transparent;box-shadow:none;border:1px solid #5a2a24;color:var(--bone)}
+.btn[aria-disabled="true"]{cursor:default;opacity:.85;pointer-events:none}
 .btn.block{display:block;width:100%}
 @media (min-width:600px){.btn.block{display:inline-block;width:auto}}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
